@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Meta -->
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      
+      <!-- Title -->
+      <title>OJI - Sushi Restaurante</title>
+      
+      <!-- Favicons -->
+      <link rel="shortcut icon" href="assets/img/favicon.png">
+      
+      <!-- Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+      
+      <!-- CSS Core -->
+      <link rel="stylesheet" href="dist/css/core.css" />
+      <link rel="icon" type="image/png" href="/assets/img/favicon.png?_ss" />
+
+      <!-- Owl Carousel Stylesheet-->
+      <link rel="stylesheet" href="/dist/css/flickity.css">
+      
+      <!-- CSS Theme -->
+      <link id="theme" rel="stylesheet" href="dist/css/theme-beige.css?_" />
+      <link rel="stylesheet" href="dist/css/styles.css">
+      
+      <style>
+         html {scroll-behavior: smooth;}
+      </style>
+   </head>
+   <body>
+      <!-- Body Wrapper -->
+      <div id="body-wrapper" >
+         <!-- Header -->
+         <header id="header" class="light">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-3">
+                     <!-- Logo -->
+                     <div class="module module-logo light py-0">
+                        <a href="/">
+                        <img src="assets/img/logo.png?_" alt="" width="80">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="col-md-7" style="padding-right: 0; margin-right: 0;">
+                     <!-- Navigation -->
+                     <nav class="module module-navigation left mr-4" style="padding-right: 0;">
+                        <ul id="nav-main" class="nav nav-main">
+                           <li>
+                              <a href="#">Página Inicial</a>
+                           </li>
+                           <li>
+                              <a href="/ementa-rodizio">Menu Rodízio</a>
+                           </li>
+                           <li>
+                              <a href="/takeaway">Takeaway</a>
+                           </li>
+                           <li>
+                              <a href="/bebidas">Bebidas</a>
+                           </li>
+                           <li>
+                              <a href="#contatos">Localização & Contatos</a>
+                           </li>
+                           <a href="https://order.ubereats.com/lisbon/food-delivery/OJi%20Sushi%20Restaurante/rxLl5lx9Tr-1u7DxshagbQ/?utm_source=web-restaurant-manager" target="_blank" >
+                              <img style="max-height: 45px;" src="/assets/img/uberEatsHeader.png" alt="">
+                           </a>
+                           
+                        </ul>
+                     </nav>
+                     <div class="module left">
+                     </div>
+                  </div>
+                  <div class="col-md-2" style="padding-top:25px">
+                     <a href="#book" class="btn btn-outline-secondary"><span>RESERVAR</span></a>                  
+                  </div>
+                  
+               </div>
+               
+            </div> 
+                     
+                  
+         </header>
+         <!-- Header / End -->
+         <!-- Header -->
+         <header id="header-mobile" class="light" style="height:60px">
+            <div class="module module-nav-toggle" >
+               <a href="" id="nav-toggle" data-toggle="panel-mobile">
+                  <span></span><span></span><span></span><span></span>
+               </a>
+            </div>
+            <div class="module module-logo">
+               <a href="/">
+               <img src="assets/img/logo.png?_" alt="" style="width:50px;height: 60px;padding: 5px;">
+               </a>
+            </div>
+            <a href="#" class="module module-cart" data-toggle="panel-cart">
+            </a>
+         </header>
+         <!-- Header / End -->
+         <!-- Content -->
+         <div id="content">
+            <!-- Section - Main -->
+            <section class="section section-main section-main-2">
+               <div class="menu-sample-carousel carousel inner-controls" style="height: 100%;" data-slick='{
+                  "dots": false,
+                  "infinite":false,
+                  "autoplay":false,
+                  "autoplaySpeed": 4000
+               }'>
+
+
+
+               <div class="menu-sample"   >
+                  <img src="/assets/img/mainPage/Desconto_Estudante.png" alt="" class="image">
+               </div>
+
+
+               </div>
+               <!-- <div id="section-main-2-slider" class="section-slider inner-controls">
+                   Slide 
+                  <div class="slide">
+                     <div class="bg-image zooming"><img src="/assets/img/testeBG.jpg" alt=""></div>
+                     <div class="container v-center">
+
+                        <h1 class="display-2 mb-2"><b style="color: black;font-weight: 700;">Rodízio all you can eat</b> </h1>
+                        <h4 class="text- mb-5" style=" color: black;"><b>Faça já a sua reserva!</b> </h4>
+
+                        <br>
+                        <br>
+                        <a href="#book" class="btn btn-outline-primary btn-lg" style="background: black;"><span style="color: #B08724;">Reservar agora</span></a>
+                        <br>
+                        <br>
+                        <a  href="https://order.ubereats.com/lisbon/food-delivery/OJi%20Sushi%20Restaurante/rxLl5lx9Tr-1u7DxshagbQ/?utm_source=web-restaurant-manager" target="_blank" >
+                           <img class="uberEats-mobile-btn" src="/assets/img/uberEatsHeader.png" alt="">
+                        </a>
+                     </div>
+                  </div>
+               </div> -->
+            </section>
+            <section class="section pb-0" id="ementa">
+
+               <div class="menu-sample-carousel carousel inner-controls" data-slick='{
+                  "dots": true,
+                  "slidesToShow": 3,
+                  "slidesToScroll": 1,
+                  "infinite": true,
+                  "responsive": [
+                     {
+                        "breakpoint": 991,
+                        "settings": {
+                           "slidesToShow": 2,
+                           "slidesToScroll": 1
+                        }
+                     },
+                     {
+                     "breakpoint": 690,
+                        "settings": {
+                           "slidesToShow": 1,
+                           "slidesToScroll": 1
+                           }
+                     }
+                     ]
+                  }'>
+
+                  <div class="menu-sample">
+                     <a href="/takeaway#571">
+                        <img src="/assets/img/mainPage/combinados.jpg" alt="" class="image">
+                        <h3 class="title" style="font-size:35pt">Combinados</h3>
+                     </a>
+                  </div>
+
+                  <div class="menu-sample">
+                     <a href="/takeaway#500">
+                        <img src="/assets/img/makiFrito.jpg" alt="" class="image">
+                        <h3 class="title" style="font-size:35pt">Sushi</h3>
+                     </a>
+                  </div>
+
+                  <div class="menu-sample">
+                     <a href="/takeaway#572">
+                        <img src="/assets/img/mainPage/teppanyaki.jpg" alt="" class="image">
+                        <h3 class="title" style="font-size:35pt">Teppanyaki</h3>
+                     </a>
+                  </div>
+
+                  <div class="menu-sample">
+                     <a href="/takeaway#499">
+                        <img src="/assets/img/mainPage/couvert1.jpg" alt="" class="image">
+                        <h3 class="title" style="font-size:35pt">Couvert</h3>
+                     </a>
+                  </div>
+
+                  <div class="menu-sample">
+                     <a href="/takeaway#526">
+                        <img src="/assets/img/c-4.jpg" alt="" class="image">
+                        <h3 class="title" style="font-size:35pt">Sashimi</h3>
+                     </a>
+                  </div>
+
+
+
+               </div>
+            </section>
+
+            <!-- Section - About -->
+            <section class="section"  id="contatos">
+               <div class="container">
+                  <div class="row align-items-center">
+                     <div class="col-lg-6 push-lg-1 col-md-6">
+                        <h4 class="mb-0">Restaurante OJI</h4>
+                        <span class="text-muted">Av. das Forças Armadas, n34B, 1600-082, Lisboa</span>
+                        <hr class="hr-md">
+                        <div class="row">
+                           <div class="col-sm-6 mb-3 mb-sm-0">
+                              <h6 class="mb-1 text-muted">Contatos:</h6>
+                              <a href="tel:00351211571738">+351 211 571 738</a> /
+                              <a href="tel:00351937344666">+351 937 344 666</a>
+                           </div>
+                           <div class="col-sm-6">
+                              <h6 class="mb-1 text-muted">E-mail:</h6>
+                              <a href="mailto:oji.restaurante@gmail.com">oji.restaurante@gmail.com</a>
+                           </div>
+                        </div>
+                        <hr class="hr-md">
+                        <h6 class="mb-3 text-muted">Horário:</h6>
+                        <span>2ª - Sábado: <span class="text-muted">12:00 - 15:30 | 19:00 - 23:00</span></span>
+                        <br>
+                        <span>Domingo: <span class="text-muted">Fechado</span></span>
+
+                        <hr class="hr-md">
+
+                        <h6 class="mb-3 text-muted">Siga-nos!</h6>
+                        <a href="https://www.facebook.com/ojiRestaurante" target="_blank" class="icon icon-social icon-circle icon-sm icon-facebook"><i class="fa fa-facebook"></i></a>
+                        <br>
+                        <br>
+                        <br>
+                     </div>
+                     <div class="col-lg-6 push-lg-2 col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.6816072897636!2d-9.153353084328405!3d38.748067963337036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd193356ad8d282b%3A0xf145d1c91335fbb!2sOji%20Sushi%20Restaurante!5e0!3m2!1spt-PT!2spt!4v1613937266782!5m2!1spt-PT!2spt" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>  
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- Section - Offers -->
+            <!-- Section - Menu -->
+            <section class="section section-lg "  id="book" style="background:url(/assets/img/bg-3.jpg?_);background-size:cover;background-position:center">
+               <!-- Video BG -->
+               <div class="bg-image bg-video-placeholder zooming"></div>
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-6 push-lg-3">
+                        <!-- Book a Table -->
+                        <div class="utility-box">
+                           <div class="utility-box-title bg-dark dark">
+                              <div class="bg-image"></div>
+                              <div>
+                                 <span class="icon icon-primary"><i class="ti ti-bookmark-alt"></i></span>
+                                 <h4 class="mb-0">Reserva Online!</h4>
+                                 <p class="lead text-muted mb-0">Forneça detalhes da sua reserva.</p>
+                              </div>
+                           </div>
+                           <form action="/send" id="booking-form" data-validate="" novalidate="novalidate" method="post">
+                              <div class="utility-box-content">
+                                 <div class="form-group">
+                                    <label>Nome e Apelido:</label>
+                                    <input type="text" name="name" class="form-control" required="" aria-required="true" aria-invalid="true">
+                                 </div>
+                                 <div class="form-group">
+                                    <label>E-mail:</label>
+                                    <input type="email" name="emailto" class="form-control" required="" aria-required="true" >
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-sm-6">
+                                       <div class="form-group">
+                                          <label>Contato:</label>
+                                          <input type="text" name="contact" class="form-control" required="" aria-required="true">
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                       <div class="form-group">
+                                          <label>Pessoas:</label>
+                                          <input type="number" name="info_2" min="1" class="form-control" required="" aria-required="true" aria-invalid="true">
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                       <div class="form-group">
+                                          <label>Data:</label>
+                                          <input id="bookDate" type="date" name="info_1" class="form-control" required="" aria-required="true" format="dd/mm/yyyy">
+                                       </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                       <div class="form-group">
+                                          <label>Hora:</label>
+                                          <!-- <input id="boodTime" type="time" name="info_3" class="form-control" required="" aria-required="true"> -->
+                                          <select name="info_3" id="boodTime" required="" class="form-control">
+                                             <option value=></option>
+                                             <optgroup label="Almoço">
+                                                <option value="12:30">12h30</option>
+                                                <option value="12:45">12h45</option>
+                                                <option value="13:00">13h00</option>
+                                                <option value="13:15">13h15</option>
+                                                <option value="13:30">13h30</option>
+                                                <option value="13:45">13h45</option>
+                                                <option value="14:00">14h00</option>
+                                                <option value="14:15">14h15</option>
+                                                <option value="14:30">14h30</option>
+                                             </optgroup>
+                                             <optgroup label="Jantar">
+                                                <option value="19:00">19h00</option>
+                                                <option value="19:15">19h15</option>
+                                                <option value="19:30">19h30</option>
+                                                <option value="19:45">19h45</option>
+                                                <option value="20:00">20h00</option>
+                                                <option value="20:15">20h15</option>
+                                                <option value="20:30">20h30</option>
+                                                <option value="20:45">20h45</option>
+                                                <option value="21:00">21h00</option>
+                                                <option value="21:15">21h15</option>
+                                                <option value="21:30">21h30</option>
+                                                <option value="21:45">21h45</option>
+                                                <option value="22:00">22h00</option>
+                                                <option value="22:15">22h15</option>
+                                             </optgroup>
+                                          </select>
+                                       </div>
+                                    </div>
+                                    <div style="display:none">
+                                       <input type="text" name="emailby" value="oji.restaurante@gmail.com">
+                                       <input type="text" name="site" value="Restauranteoji.com">
+                                       <input type="text" name="subject" value="Nova reserva no site">
+                                       <input type="text" name="return" value="https://restauranteoji.com/success">
+                                    </div>
+                                 </div>
+                              </div>
+                              <button class="utility-box-btn btn btn-secondary btn-block btn-lg btn-submit" type="submit">
+                                 <span class="description">Reservar!</span>
+                                 <span class="success">
+                                    <svg x="0px" y="0px" viewBox="0 0 32 32">
+                                       <path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"></path>
+                                    </svg>
+                                 </span>
+                                 <span class="error">Tente de novo</span>
+                              </button>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- Footer -->
+            <footer id="footer" class="bg-dark dark" style="background: #000 !important;">
+               <div class="container">
+                  <!-- Footer 2nd Row -->
+                  <div class="footer-second-row row align-items-center">
+                     <div class="col-lg-4 col-md-6 text-center text-md-right">
+                        <a href="https://www.facebook.com/ojiRestaurante" target="_blank" class="icon icon-social icon-circle icon-sm icon-facebook"><i class="fa fa-facebook"></i></a>
+                     </div>
+                     <div class="col-lg-4 text-center">
+                        <div style="width:200px;height:200px;background:transparent" class="mx-auto">
+                           <a href=""><img src="assets/img/logo-white.png" alt="" width="120" class="mt-5 "></a>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 text-center text-md-left">
+                        <span class="text-sm text-muted">Copyright Restaurante OJI © 2020.</span>
+                        <br>
+                        <a class="text-sm text-muted" href="https://www.livroreclamacoes.pt/inicio" target="_blank">Livro de Reclamações</a>
+                     </div>
+                  </div>
+               </div>
+               <!-- Back To Top -->
+               <button id="back-to-top" class="back-to-top"><i class="ti ti-angle-up"></i></button>
+            </footer>
+            <div class="cookie-banner" style="display: none">
+               <div style="align-content: center;">
+                  <p style="margin-top: 1rem;">Este website utiliza cookies para melhorar a sua experiência. </p>
+                  <p>Ao usar o nosso website, estará a concordar com o seu uso.</p>
+               </div>
+
+               <button style="align-self: center;" class="close">&times;</button>
+            </div>
+            <!-- Footer / End -->
+         </div>
+         <!-- Content / End -->
+         <!-- Panel Cart -->
+         <!-- Panel Mobile -->
+         <nav id="panel-mobile">
+            <div class="module module-logo bg-light light">
+               <a href="#">
+               <img src="assets/img/logo.png" alt="" width="130">
+               </a>
+               <button class="close" data-toggle="panel-mobile"><i class="ti ti-close"></i></button>
+            </div>
+            <nav class="module module-navigation"></nav>
+            <div style="padding:20px"  class="" >
+               <a href="#book" class="btn btn-outline-primary btn-lg" style="width: 100%; " data-toggle="panel-mobile"><span>Reservar agora</span></a>
+            </div>
+            <div class="module module-social">
+               <h6 class="text-sm mb-3">Siga-nos!</h6>
+               <a href="https://www.facebook.com/ojiRestaurante" target="_blank" class="icon icon-social icon-circle icon-sm icon-facebook"><i class="fa fa-facebook"></i></a>
+            </div>
+         </nav>
+
+
+         <!-- Body Overlay -->
+         <div id="body-overlay"></div>
+      </div>
+      <!-- Modal / Product -->
+      <!-- JS Core -->
+      
+      <script src="dist/js/core.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="/dist/js/flickity.pkgd.js"></script>
+      <script>
+          // Initialize Flickity carousel
+          $('.main-gallery').flickity({
+              // options
+              wrapAround:true,
+              imagesLoaded: true,
+              cellAlign: 'left',
+              contain: true
+          });
+      </script>
+      <script>
+         if(localStorage.getItem('cookieSeen') != 'shown'){
+            $(".cookie-banner").delay(2000).fadeIn();
+             localStorage.setItem('cookieSeen','shown')
+         }
+
+         $('.close').click(function(e) {
+            $('.cookie-banner').fadeOut(); 
+         });
+      </script>
+   </body>
+</html>

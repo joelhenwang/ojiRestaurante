@@ -1,0 +1,158 @@
+body{
+    font-family: 'Noto Serif SC', serif !important;
+}
+
+#header.light .container{
+    max-width: 1400px;
+    margin-left: auto;
+
+} 
+
+.uberEats-mobile-btn{
+    display: none ;
+}
+
+
+.menu-grid-item .mb-4{
+    display: inline-block;
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+}
+
+
+
+.menu-category-title h2{
+    color: black;
+}
+
+.menu-category .menu-category-title .title{
+    font-size: 4rem;
+}
+
+.uberLogo{
+    height: 200px;
+}
+
+
+
+#ementa .container{
+    padding-left: 100px;
+    max-width: none;
+    display: none;
+    background-image: url(/assets/img/back.jpeg); 
+    background-size: cover; 
+    background-position: top;
+}
+.container .v-center h4{
+    font-size:27pt;
+}
+
+
+.cookie-banner {
+	position: fixed;
+	bottom: 40px;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    line-height: 0.5rem;
+}
+
+.cookie-banner p{
+    margin-bottom: 1rem;
+}
+
+.close {
+    font-size: 2rem;
+    height: 50px;
+    background-color: #777;
+    border: none;
+    color: black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.page-title.bg-light{
+    height: 350px;
+}
+
+@media (max-width:720px){
+
+    #ementa .container{
+        display: flex;
+    }
+
+    .uberEats-mobile-btn{
+        display: block;
+        max-height: 55px;
+    }
+    .menu-category .menu-category-title{
+        height: 120px;
+    }
+
+    .menu-grid-item .mb-4{
+        
+        background-size: contain;
+        height: 150px;
+        width: 100%;
+    }
+
+    .menu-category .menu-category-title .title{
+        font-size: 2rem;
+    }
+    .uberLogo{
+        height: 100px;
+    }
+
+    .page-title.bg-light{
+        height: 300px;
+    }
+}
+
+@media (max-width:575px){
+    #ementa .container{
+        padding-left: 10px;
+    }
+
+    #ementa .container .btn{
+        font-size: 1rem;
+        height: 4rem;
+    }
+
+    .uberEats-mobile-btn{
+        max-height: 30px;
+    }
+
+    .display-2{
+        font-size: 2.5rem;
+    }
+
+    .container.v-center h4{
+        font-size: 1.5rem;
+        
+    }
+
+    .mb-5, .my-5{
+        margin-bottom: 1rem!important;
+    }
+
+    .container.v-center .btn-lg{
+        height: 3rem;
+    }
+
+    .container.v-center .btn-lg span{
+        font-size:  1rem;
+    }
+    .page-title.bg-light{
+        height: 200px;
+    }
+}
